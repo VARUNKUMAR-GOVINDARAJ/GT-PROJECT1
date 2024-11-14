@@ -1,0 +1,439 @@
+.fooder-signup {
+    margin-top: 200px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav {
+    width: 100% !important;
+    position: fixed;
+    z-index: 2;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F7F9;
+    border: 1px solid rgb(229, 230, 231);
+
+}
+
+.nav1 {
+    color: #13344D;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.nav2 {
+    margin-left: 10px;
+    color: #13344D;
+    width: 550px;
+    font-size: 15px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav2-button1 {
+    color: #13344D;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    /* border-color: lightgray; */
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-left: -5px;
+
+}
+
+/* .nav2 .nav2-login-signup {   --------  here .nav2 is parentdiv name through that the compiler can easily understand */
+
+.nav2-login-signup {
+    margin-left: -12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 125px;
+}
+
+.nav2-ls {
+
+    text-decoration: none;
+    color: #13344D;
+}
+
+.nav2-line {
+    font-size: x-large;
+    font-weight: 100;
+    margin-top: -7px;
+    color: black;
+}
+
+.nav2-mobile {
+    display: none;
+}
+
+.reddd {
+    /* padding: 2px; */
+    margin-left: 1px !important;
+    /* border: 2px solid red; */
+}
+
+.nav2-home {
+    margin-left: 10px;
+
+}
+
+.nav2-knowledgebase {
+    margin-left: -10px;
+
+}
+
+.nav2-home:hover {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.nav2-knowledgebase:hover {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .nav {
+
+        padding: 5px;
+        position: relative;
+        height: 68px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        background-color: #F5F7F9;
+    }
+
+    .nav1 {
+
+        color: #13344D;
+        font-size: larger;
+        font-weight: 600;
+        margin-left: 15px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .nav1-name {
+        margin-left: -10px;
+    }
+
+
+    .nav2 {
+        display: none;
+    }
+
+    .nav2-mobile {
+        display: flex;
+        margin-right: 20px;
+        font-size: xx-large;
+        color: #13344D;
+        font-weight: 900;
+        cursor: pointer;
+    }
+
+    /* .nav2.icon{
+            font-weight: 900;
+        } */
+
+    .nav2-homem i,
+    .nav2-knowledgebasem i {
+        color: #13344D;
+        margin-top: 0;
+        margin-right: 15px;
+        /* Space between the icon and text */
+        font-size: 1.3rem;
+        /* Increased icon size */
+    }
+
+    .nav2-homem,
+    .nav2-knowledgebasem {
+        /* margin-top: -150px; */
+
+        color: #13344D;
+
+        display: flex;
+        align-items: center;
+        font-size: 1.02rem;
+        margin-bottom: 10px;
+    }
+
+    .nav2-buttonm {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 300px;
+        margin-top: 10px;
+
+    }
+
+    .container {
+        margin-top: -80px;
+
+    }
+
+
+}
+
+/* Close button will remain in its default position (top-right corner of offcanvas) */
+.btn-close-offcanvas {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1050;
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.offcanvas {
+    max-width: 70% !important;
+    /* Adjust the width as needed */
+}
+
+/* ................................................................... */
+
+* {
+    background-color: #F5F7F9;
+
+}
+
+.cardin {
+
+    background-color: #FFFFFF;
+    color: #12344D;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.card {
+
+    margin-top: 110px;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+
+.login-h1 {
+    margin-top: -5px;
+    background-color: #FFFFFF;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.login-h2 {
+    background-color: #FFFFFF;
+
+    margin-top: -12px;
+    font-size: medium;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.login-signup {
+    background-color: #FFFFFF;
+    font-size: medium;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login-h3 {
+    background-color: #FFFFFF;
+    display: flex;
+    font-size: medium;
+    font-weight: 640;
+    margin-bottom: -10px;
+}
+
+.star {
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    color: red;
+}
+
+.input {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1.5px solid lightgrey;
+
+    padding-left: 15px;
+    font-weight: 400;
+}
+
+.login-h4 {
+    background-color: #FFFFFF;
+    display: flex;
+
+    font-size: medium;
+    font-weight: 640;
+    margin-top: 4px;
+
+}
+
+.checkbox {
+    background-color: #FFFFFF;
+    margin-top: 2.3px;
+    margin-right: 9px;
+
+}
+
+.checkboxin {
+    width: 16px;
+    height: 16px;
+
+}
+
+.loginbutton {
+    background-color: #FFFFFF;
+}
+
+.loginbuttonin {
+    width: 100%;
+    color: white;
+    background-color: #12344D;
+    border: none;
+    border-radius: 4px;
+    height: 45px;
+    font-size: medium;
+    font-weight: 600;
+    margin-top: -7px;
+    margin-bottom: 7px;
+}
+
+.forgotpassword {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.forgotpasswordin {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.already {
+
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+}
+
+.loginhere {
+    text-decoration: none;
+}
+
+.downnav {
+
+    margin-top: 50px;
+    width: 100%;
+
+    height: 68px;
+    background-color: #12344D;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 499;
+    color: white;
+}
+
+.downnav1 {
+
+    background-color: #12344D;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.downnav2 {
+    background-color: #12344D;
+
+}
+
+.downnav2in {
+    background-color: #12344D;
+
+    color: white;
+
+}
+
+.downnav3 {
+    background-color: #12344D;
+
+}
+
+.downnav3in {
+    background-color: #12344D;
+    color: lightgray;
+
+
+}
+
+.downnav4 {
+    background-color: #12344D;
+
+}
+
+.downnav4in {
+    background-color: #12344D;
+
+    color: white;
+
+}
+
+
+.downnavline {
+    font-size: x-large;
+    font-weight: 100;
+    background-color: #12344D;
+}
+
+.loginhere:hover {
+    color: black;
+}
+
+.forgotpasswordin:hover {
+    color: black;
+}
+
+.checkboxin {
+    /* background-color: #12344D; */
+    color: #12344D;
+}

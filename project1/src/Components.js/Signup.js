@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import navlogo from '../Images.js/navlogo.png'
 
-function Login() {
+function Signup() {
 
     const [show, setShow] = useState(false);
 
@@ -55,7 +55,7 @@ function Login() {
                             </div> */}
 
                             {/* Mobile Nav (Offcanvas Icon) */}
-                            <div className="nav2-mobile-btn">
+                            <div className="nav2-mobile">
                                 <i
                                     className="bi bi-list icn"
                                     onClick={handleShow}
@@ -101,15 +101,15 @@ function Login() {
 
                             <div className="cardin">
 
-                                <p className="login-h1"> Log in to support portal </p>
-                                <p className="login-h2"> Are you a new user? <a href="#" className="login-signup"> Sign up with us </a> </p>
-                                <p className="login-h3"> Your e-mail address <p className="star"> * </p> </p>
+                                <p className="login-h1"> Sign up for support portal </p>
+                                <p className="login-h2"> Are you a  user? <a href="#" className="login-signup"> Login </a> </p>
+                                <p className="login-h3"> Full name <p className="star"> * </p> </p>
                                 <p> <input type="text" className="input" placeholder='Your e-mail address' /> </p>
-                                <p className="login-h3"> Password <p className="star"> * </p> </p>
+                                <p className="login-h3"> Email <p className="star"> * </p> </p>
                                 <p> <input type="text" className="input" placeholder='Password' /> </p>
-                                <p className="login-h4"> <p className="checkbox"> <input  type="checkbox" className="checkboxin " /> </p> Remember me on this computer </p>
-                                <p className="loginbutton"> <button className="loginbuttonin"> Login </button> </p>
-                                <p className="forgotpassword"> <a href="#" className="forgotpasswordin"> Forgot your password? </a> </p>
+                                <br/>
+                                <p className="loginbutton"> <button className="loginbuttonin"> Register </button> </p>
+                                
                             </div>
 
                         </Card>
@@ -122,7 +122,7 @@ function Login() {
                     <Col lg={3}> </Col>
                 </Row>
             </div>
-            <div className='fooder'>
+            <div className='fooder-signup'>
                 <Row>
                     <Col>
 
@@ -148,4 +148,4 @@ function Login() {
     )
 }
 
-export default Login
+export default Signup
