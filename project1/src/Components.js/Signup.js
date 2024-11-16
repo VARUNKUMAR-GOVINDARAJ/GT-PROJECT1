@@ -32,9 +32,9 @@ function Signup() {
                             <div className='nav2-button'> <button className='nav2-button1'> Sumbit a ticket </button> </div>
 
                             <div className='nav2-login-signup'>
-                                <a href='#' className='nav2-ls'> login </a>
+                                <a href='/' className='nav2-ls'> login </a>
                                 <div className='nav2-line'> | </div>
-                                <a href='#' className='nav2-ls'> Sign up </a>
+                                <a href='/signup' className='nav2-ls'> Sign up </a>
                             </div>
 
                         </div>
@@ -67,9 +67,9 @@ function Signup() {
                             <Offcanvas show={show} onHide={handleClose} placement="end">
                                 <Offcanvas.Header closeButton>
                                     <div className="nav2-login-signup" style={{ position: 'relative' }}>
-                                        <a href="#" className="nav2-ls">login</a>
+                                        <a href="/" className="nav2-ls">login</a>
                                         <div className="nav2-line"> | </div>
-                                        <a href="#" className="nav2-ls">Sign up</a>
+                                        <a href="/signup" className="nav2-ls">Sign up</a>
                                     </div>
                                 </Offcanvas.Header>
                                 <Offcanvas.Body style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-evenly' }}>
@@ -102,14 +102,41 @@ function Signup() {
                             <div className="cardin">
 
                                 <p className="login-h1"> Sign up for support portal </p>
-                                <p className="login-h2"> Are you a  user? <a href="#" className="login-signup"> Login </a> </p>
+                                <p className="login-h2"> Are you a  user? <a href="/" className="login-signup"> Login </a> </p>
                                 <p className="login-h3"> Full name <p className="star"> * </p> </p>
-                                <p> <input type="text" className="input" placeholder='Your e-mail address' /> </p>
+                                <p> <input type="text" className="input" placeholder='Your Full name' /> </p>
+
+                                <p className="login-h3"> College name <p className="star"> * </p> </p>
+                                <p> <input type="text" className="input" placeholder='Your college name' /> </p>
+
                                 <p className="login-h3"> Email <p className="star"> * </p> </p>
-                                <p> <input type="text" className="input" placeholder='Password' /> </p>
-                                <br/>
+                                <p> <input type="text" className="input" placeholder='Your e-mail address' /> </p>
+
+                                <p className="login-h3"> Roll number <p className="star"> * </p> </p>
+                                <p> <input type="text" className="input" placeholder='Your roll number' /> </p>
+
+                                <p className="login-h3"> Mobile number <p className="star"> * </p> </p>
+                                <p> <input type="text" className="input" placeholder='Your mobile number' /> </p>
+
+                                <p className="login-h3"> Gender <p className="star"> * </p> </p>
+                                <select className="input gender-select padding" style={{ marginBottom: '15px' }}>
+                                    <option value="" disabled selected>  Choose your gender </option>
+                                    <option value="female">Female</option>
+                                    <option value="male">Male</option>
+                                    <option value="other">Other</option>
+                                </select>
+
+                                <p className="login-h3"> Password <p className="star"> * </p> </p>
+                                <p> <input type="text" className="input" placeholder='Your roll number' /> </p>
+
+                                <p className="login-h3"> Confirm password <p className="star"> * </p> </p>
+                                <p> <input type="text" className="input" placeholder='Your roll number' /> </p>
+
+
+
+                                <br />
                                 <p className="loginbutton"> <button className="loginbuttonin"> Register </button> </p>
-                                
+
                             </div>
 
                         </Card>
@@ -127,11 +154,11 @@ function Signup() {
                     <Col>
 
                         <div className="downnav">
-                        &nbsp;  <p className="downnav1"> Helpdesk Software by </p> &nbsp;
-                        &nbsp;  <p className="downnav2"> <a href="#" className="downnav2in"> Fresdesk </a> </p> &nbsp;
-                        &nbsp;  <p className="downnavline"> | </p> &nbsp;
-                        &nbsp;  <p className="downnav3"> <a href="#" className="downnav3in"> Cookie Policy </a> </p> &nbsp;
-                        &nbsp;  <p className="downnav4"> <a href="#" className="downnav4in"> Privacy policy </a> </p> &nbsp;
+                            &nbsp;  <p className="downnav1"> Helpdesk Software by </p> &nbsp;
+                            &nbsp;  <p className="downnav2"> <a href="#" className="downnav2in"> Fresdesk </a> </p> &nbsp;
+                            &nbsp;  <p className="downnavline"> | </p> &nbsp;
+                            &nbsp;  <p className="downnav3"> <a href="#" className="downnav3in"> Cookie Policy </a> </p> &nbsp;
+                            &nbsp;  <p className="downnav4"> <a href="#" className="downnav4in"> Privacy policy </a> </p> &nbsp;
                         </div>
 
                     </Col>
